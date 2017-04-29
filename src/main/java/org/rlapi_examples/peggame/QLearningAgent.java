@@ -54,7 +54,7 @@ public class QLearningAgent {
         SimpleDateFormat dateFmt = new SimpleDateFormat("yyyyMMdd_HHmmss");
         DecimalFormat decFmt = new DecimalFormat("#0%");
         String fileName = 
-                "policy-"+ numberOfLevels.number +"levels-"+ 
+                "peg_game/policy-"+ numberOfLevels.number +"levels-"+ 
                 dateFmt.format(new Date()) +".txt";
         String appendix = 
                 "Number of levels: " + numberOfLevels + 

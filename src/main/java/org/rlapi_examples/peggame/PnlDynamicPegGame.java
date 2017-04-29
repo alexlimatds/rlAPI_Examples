@@ -50,10 +50,10 @@ public class PnlDynamicPegGame extends javax.swing.JPanel{
         try{
             final Map<String, String> policy;
             if(numberOfLevels.number == 5){
-                policy = Util.readPolicy("policy-5levels.txt");
+                policy = Util.readPolicy("peggame/policy-5levels.txt");
             }
             else if(numberOfLevels.number == 6){
-                policy = Util.readPolicy("policy-6levels.txt");
+                policy = Util.readPolicy("peggame/policy-6levels.txt");
             }
             else{
                 throw new IllegalStateException("There is not a policy for the current level");
